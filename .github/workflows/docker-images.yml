@@ -33,7 +33,7 @@ jobs:
         host: 20.5.65.179
         username: grace
         key: ${{ secrets.SSH_PRIVATE_KEY }}
-        port: 2020        
+        port: 22       
         script: |
           echo "Running command on remote server"
           cd ~/WK2_Docker

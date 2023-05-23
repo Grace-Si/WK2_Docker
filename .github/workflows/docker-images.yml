@@ -31,7 +31,7 @@ jobs:
       uses: appleboy/ssh-action@v0.1.10
       with:
         host: 20.5.65.179
-        username: azureuser
+        username: grace
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 2020        
         script: |
@@ -47,5 +47,5 @@ jobs:
       #     cd /tmp
       #     ls -a
       #   host: 20.5.65.179
-      #   user: azureuser
+      #   user: grace
       #   key: ${{ secrets.SSH_PRIVATE_KEY}}

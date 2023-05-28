@@ -38,12 +38,7 @@ jobs:
           echo "Running command on remote server"
           cd ~/WK2_Docker
           git pull
-          - name: Stop Docker Compose services
-            run: docker-compose down
-
-          - name: Start Docker Compose services
-            run: docker-compose up -d
-
-          - name: Check Docker Compose services status
-            run: docker-compose ps
+          docker-compose down
+          docker-compose up -d
+          docker-compose ps
      

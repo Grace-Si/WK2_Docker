@@ -40,8 +40,8 @@ jobs:
           echo "Running command on remote server"
           cd ~/WK2_Docker
           git pull
-          echo Grace234567 | sudo -S docker-compose down
-          echo Grace234567 | sudo -S  docker-compose up -d
-          echo Grace234567 | sudo -S  docker-compose ps
+          echo Grace1234567 | sudo -S docker-compose down
+          echo Grace1234567 | sudo -S  docker-compose up -d
+          echo Grace1234567 | sudo -S  docker-compose ps
         
      
